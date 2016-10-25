@@ -1,0 +1,98 @@
+.navbar {
+	width: 100%;
+	height: 1em;
+	background-color: #000;
+}
+
+#logo {
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	margin-top: 0.25em;
+	margin-left: 0.25em;
+}
+
+#logo-red {
+	color: #f6201d;
+}
+
+.navbar h2, h4 {
+	display: inline;
+	margin-right: 0;
+	color: #fff;
+}
+
+.navbar h4 {
+	position: relative;
+	padding-right: 1em;
+	margin-top: 0.55em;
+	height: 100%;
+}
+
+.navbar h4:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.drop-down-wrap {
+	display: inline;
+	margin-top: 0.5em;
+	height: 1em;
+	clear: both;
+}
+
+.drop-down-text {
+	color: #fff;
+	font-family: Helvetica;
+}
+
+.dropdown-menu {
+	position: relative;
+}
+
+.dropdown-menu li {
+	margin-left: 0.25em;
+	font-family: serif;
+}
+
+.dropdown-menu li a:hover {
+	color: #f6201d;
+}
+
+#dropdownMenu2 {
+	display:block;
+	float: none;
+	width: 100%
+}
+
+
+.session {
+	color: #fff;
+}
+
+/****Sign In & Sign Out****/
+.show {
+	visibility: visible;
+}
+
+.hide {
+	visibility: hidden;
+}
+
+/****Media Queries ****/
+@media only screen and (max-width: 480px) {
+	.navbar {
+		width: 100%;
+		height: auto;
+		background-color: #000;
+	}
+
+	.all-drop-downs {
+		margin-top: 3em;
+	}
+
+	.drop-down-wrap {
+		display: block;
+		height: 1.35em;
+		clear: both;
+	}
+}
